@@ -373,7 +373,6 @@
 }
 
 @media (width >= 1024px) {
-
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -396,7 +395,7 @@
     grid-column: 1;
   }
 
-  .content__text-block_type_grid .content__articles {         
+  .content__text-block_type_grid .content__articles {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
