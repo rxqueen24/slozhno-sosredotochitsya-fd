@@ -7,7 +7,13 @@
 :root.theme-light {
   --page-bg-image: url("../images/cover-image-light.png");
   --page-bg-color: #FFF1F7;
-  --accent-color: #FF8DCB;
+
+  --decor-color: #353430;        /* уголки + REC */
+  --button-color: #353430;       /* текст кнопок */
+  --button-hover: rgb(50 49 45 / 0.4);
+
+
+  --accent-color: #FF8DCB;       /* фон заголовков */
   --text-color: #353430;
   --title-color: #FFC2E6;
   --heading-text-color: #353430;
@@ -21,12 +27,18 @@
 @media (prefers-color-scheme: light) {
 
   :root {
-    --page-bg-image: url("../images/cover-image-light.png");
-    --page-bg-color: #FFF1F7;
-    --accent-color: #FF8DCB;
-    --text-color: #353430;
-    --title-color: #FFC2E6;
-    --heading-text-color: #353430;
+  --page-bg-image: url("../images/cover-image-light.png");
+  --page-bg-color: #FFF1F7;
+
+  --decor-color: #353430;        /* уголки + REC */
+  --button-color: #353430;       /* текст кнопок */
+  --button-hover: rgb(50 49 45 / 0.4);
+
+
+  --accent-color: #FF8DCB;       /* фон заголовков */
+  --text-color: #353430;
+  --title-color: #FFC2E6;
+  --heading-text-color: #353430;
   }
 
   .rec {
