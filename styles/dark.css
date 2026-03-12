@@ -8,19 +8,22 @@
   --page-bg-image: url("../images/cover-image-dark.png");
   --page-bg-color: #0f172a;
 
-  --decor-color: #FF0070;        /* уголки + REC */
-  --button-color: #FF0070;       /* текст кнопок */
+  --decor-color: #ff0070; /* уголки + REC */
+  --button-color: #ff0070; /* текст кнопок */
   --button-hover: rgb(255 0 112 / 0.4);
 
-
-  --accent-color: #FF0070;       /* фон заголовков */
-  --text-color: #F1B2CE;
-  --title-color: #DB00FF;
+  --accent-color: #ff0070; /* фон заголовков */
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
   --heading-text-color: #000028;
-  
-  --main-font: 'IBM Plex mono', monospace;
+
+  --main-font: "IBM Plex mono", monospace;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+
+:root.theme-dark .rec {
+  display: block;
 }

@@ -6,16 +6,15 @@
 
 :root.theme-light {
   --page-bg-image: url("../images/cover-image-light.png");
-  --page-bg-color: #FFF1F7;
+  --page-bg-color: #fff1f7;
 
-  --decor-color: #353430;        /* уголки + REC */
-  --button-color: #353430;       /* текст кнопок */
+  --decor-color: #353430; /* уголки + REC */
+  --button-color: #353430; /* текст кнопок */
   --button-hover: rgb(50 49 45 / 0.4);
 
-
-  --accent-color: #FF8DCB;       /* фон заголовков */
+  --accent-color: #ff8dcb; /* фон заголовков */
   --text-color: #353430;
-  --title-color: #FFC2E6;
+  --title-color: #ffc2e6;
   --heading-text-color: #353430;
 }
 
@@ -25,24 +24,21 @@
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
-  --page-bg-image: url("../images/cover-image-light.png");
-  --page-bg-color: #FFF1F7;
+    --page-bg-image: url("../images/cover-image-light.png");
+    --page-bg-color: #fff1f7;
 
-  --decor-color: #353430;        /* уголки + REC */
-  --button-color: #353430;       /* текст кнопок */
-  --button-hover: rgb(50 49 45 / 0.4);
+    --decor-color: #353430; /* уголки + REC */
+    --button-color: #353430; /* текст кнопок */
+    --button-hover: rgb(50 49 45 / 0.4);
 
-
-  --accent-color: #FF8DCB;       /* фон заголовков */
-  --text-color: #353430;
-  --title-color: #FFC2E6;
-  --heading-text-color: #353430;
+    --accent-color: #ff8dcb; /* фон заголовков */
+    --text-color: #353430;
+    --title-color: #ffc2e6;
+    --heading-text-color: #353430;
   }
 
   .rec {
     display: none;
   }
-
 }

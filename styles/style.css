@@ -89,7 +89,6 @@
 }
 
 .rec {
-  display: none;
   position: absolute;
   top: 12px;
   right: 20px;
@@ -109,12 +108,6 @@
   border-radius: 50%;
   background-color: var(--decor-color);
   box-shadow: 0 0 6px 3px var(--decor-color);
-}
-
-/* для тёмной темы */
-
-.theme-dark .rec {
-  display: block;
 }
 
 .decorated-zone {
